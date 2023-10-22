@@ -1,0 +1,489 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.flex{
+    display: flex;
+}
+header{
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    top: 0; 
+    background-color: #FFF;
+    z-index: 1;
+    left: 50%;
+}
+.header {
+    height: 40px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.zvonok{
+    width: 184px;
+    height: 37px;
+    margin-left: auto;
+    margin-right: 0;
+    background-color: #ffa019;
+    border-radius: 10px;
+    border: 0px;
+    color: #FFF;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    box-sizing: border-box;
+    float: right;
+    margin-top: 4.5px;
+}
+
+.zvonok:hover{
+    background-color: #b8561d;
+}
+hr{
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    height: 5px;
+    border: none;   
+    box-shadow: 0px -2px 2px 0px rgba(180, 180, 180, 0.5)
+}
+.GiRo{
+    margin-top: 11px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.menu{ 
+    font-size: 14px;
+    float: right;  
+    margin-top: 11px;
+    margin-left: auto;
+}
+.items{
+    padding-left: 48px;       
+}
+.items a{
+    text-decoration: none;
+}
+.items a:link{
+    color: black;
+}
+.items a:visited{
+    color: black;
+}
+.items a:hover{
+    color: black;
+}
+.items a:active{
+    color: black;
+}
+
+.image {
+    width: 100%;
+    height: 877px;
+    position: relative;
+    background-image: url("/Img/Scooter.png");
+    text-align: center;
+    display: table;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+
+}
+.image2 {
+    color: white;
+    vertical-align:middle;
+    display:table-cell;
+    padding-bottom: 150px;
+}
+.image button{
+    width: 134px;
+    height: 45px;
+    border-radius: 10px;
+    background: #FFF;
+    border:none;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+}
+.image button:hover{
+    background-color: #cccccc;
+}
+
+.imagetext{
+    height: 20px;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 300;   
+    line-height: normal;
+}
+.imagetext2{
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 150%;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+
+.advantages{
+    margin-top: 112px;   
+}
+h1{
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+}
+.advantages img{
+    padding-top: 90px;
+    width: 100%;   
+    padding-left: 17%;
+    padding-right: 17%;
+}
+.advantages p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    text-align: center;
+}
+.advantages_text{
+    margin-left: 110px;
+}
+.advantages_text2{
+    margin-left: 20px;
+}
+.svg{
+    margin-top: 40px;
+    margin-left: auto;
+}
+.onas{
+    padding-top: 60px;
+}
+.onas p{
+    font-size: 20px;
+    text-align: justify;
+}
+
+#pochta{
+    background-color: #FFA019;  
+    margin-top: 85px;  
+    height: 94px;
+    width: 100%;   
+}
+#pochta p{
+    color: #FFF;
+    font-size: 18px;   
+    font-weight: 600;
+    width: 316px;
+    height: 79px;
+    margin-right: 149px;
+}
+.podpiska{
+    position: relative;
+    font-size: 18px;
+    line-height: 150%;
+    font-weight: 600;
+    font-family: 'Segoe UI';
+    color: #fff;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    width: 316px;
+    height: 79px;
+    margin-top: auto;
+}
+.pochta2{
+    width: 265px;
+    height: 37px;
+    border: 1px solid #FFF;
+    background: #FFA019;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 21px;
+    margin-left: auto;
+    margin-right: 15px;
+}
+.pochta3{
+    width: 184px;
+    height: 37px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 21px;
+    margin-left: auto;
+    background: #FFF;
+    border: none;
+}
+.pochta3 a{
+    text-decoration: none;
+}
+.pochta3 a:link {
+    color: black;
+}
+
+.pochta3 a:visited {
+    color: black;
+}
+.pochta3 a:active {
+    color: black;
+}
+.pochta3:hover{
+    background-color: #ececec;
+}
+
+.osobennosti{
+    margin-top: 84px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.osobennosti ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+.osobennosti_spisok{
+    margin-left: auto;
+}
+.osobennosti p{
+    margin-top: 43px;
+    text-align: justify;
+    margin-bottom: 126px;
+}
+
+#catalog{
+    background: rgba(251, 251, 251, 0.47);
+    padding-top: 33px;
+}
+.catalog{
+    margin-left: auto;
+    padding-top: 27px;
+}
+.catalog button{
+    margin-left: 38px;
+    background: #FFF;
+    border: none;
+    border-radius: 2cqh;
+    height: 43px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.catalog button:hover{
+    background-color: #FFA019;
+    color: #FFF;
+}
+.catalog2{
+    width: 100%;
+    margin-top: 103px;
+    padding-top: 12px;
+    padding-right: 48px;
+    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    margin-bottom: 343px;
+}
+.catalog3{
+    margin-right: 28px;
+}
+
+.catalog2 img{
+    margin-top: 19px;
+    width: 90%;
+    margin-left: 35px;
+    margin-right: 48px;
+}
+.catalog2 p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 23px;
+    margin-bottom: 25px;
+}
+.catalog2 button{
+    border-radius: 0px 10px 10px 0px;
+    background: #FFA019;
+    border: none;
+    color: #FFF;
+    height: 23px;
+    padding: 0 14px 2px 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.consultant{
+    margin-top: 70px;
+    margin-bottom: 165px;  
+    background: rgba(251, 251, 251, 0.47);
+}
+.consultant2{
+    margin-right: 180px;
+    margin-left: auto;
+}
+.consultant2 img{
+    width: 60%;
+    margin-right: 27px;
+}
+.imya{
+    font-size: 20px;
+    margin-bottom: 0;
+}
+.post{
+    width: 180px;
+    font-size: 12px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.consultant button{
+    background: #FFA019;
+    border: none;
+    color: #FFF;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.consultant button:hover{
+    background-color: #b8561d;
+}
+
+#information{
+    background: #FBFBFB;
+}
+.information2{
+    color: #9B9B9B;
+    font-size: 50px;
+    font-weight: 700;  
+    margin-left: 80px;  
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.information_text{
+    width: 90%;
+    padding-right: 60px;
+}
+
+#footer{
+    margin-top: 68px;
+    color:  #9B9B9B;
+}
+.footer_image{
+    position: relative;
+    margin-top: 56px;
+    margin-bottom: 215px;
+}
+.footer2{
+    margin-right: 55px;
+}
+#footer img{
+    width: 100%;
+    filter: brightness(70%); 
+}
+.footer_text{
+    position: absolute;
+    top: 33%;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.footer{
+    color: #8191A6;
+}
+.footer p{
+    text-align: justify;
+    margin-bottom: 30px;
+}
+.footer h4{
+    color: #303842;
+}
+.text1{
+    position: relative;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+    line-height: 150%;
+    font-family: 'Segoe UI';
+    color: #8191a6;
+    text-align: left;
+    display: inline-block;
+    width: 369px;
+    
+}
+.text2{
+    margin-left: auto;
+}
+.text2 p{
+    margin: 5px 0 0 0;
+}
+.text3{
+    position: relative;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: left;
+    display: inline-block;
+    width: 203px;
+    height: 117.96px;
+    color: #8191a6;
+    font-family: 'Segoe UI';
+}
+.text3 a{
+    text-decoration: none;
+}
+.text3 a:link {
+    color: #8191a6;
+}
+
+.text3 a:visited {
+    color: #8191a6;
+}
+
+.text3 a:hover {
+    color: #8191a6;
+}
+
+.text3 a:active {
+    color: #8191a6;
+}
+.text4{
+    color: #8191A6;
+    margin-top: 70px;
+    padding-bottom: 60px;
+}
+
+@media(max-width: 1280px){
+    .GiRo{
+        font-size: 20px;
+    }
+    .menu{
+        font-size: 11px;
+    }
+    .consultant{
+        margin-right: 100px;
+    }
+    .consultant img{
+        margin-right: 20px;
+    }
+    .information2{
+        font-size: 30px;
+        margin-left: 40px;
+    }
+    .footer_text{
+        top: 27%;
+        font-size: 10px;
+    }
+    #pochta p{
+        font-size: 15px;
+    }
+}
+
+
